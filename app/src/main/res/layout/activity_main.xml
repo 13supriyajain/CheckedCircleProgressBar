@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.supjain.checkedcircleprogressbar.MainActivity">
+
+    <com.supjain.checkedcircleprogressbar.CheckedCircleProgressBar
+        android:id="@+id/compatibility_checkedcircle_progressbar"
+        style="@style/CompatibilityProgressBar"
+        app:progressDrawable="@drawable/ic_check_circle_green_36dp"
+        app:currentStepIndicator="@drawable/circle_stroke_green"
+        app:emptyStateDrawable="@drawable/circle_stroke_gray"
+        app:progressColor="@color/style_guide_alert_confirmation"
+        app:emptyStateColor="@color/style_guide_gray" />
+
+</LinearLayout>

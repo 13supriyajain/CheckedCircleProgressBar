@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compatibility Progress Bar -->
+    <declare-styleable name="compatibilityProgressBar">
+        <attr name="stepCount" format="integer" />
+        <attr name="progressCount" format="integer" />
+        <attr name="progressDrawable" format="reference" />
+        <attr name="currentStepIndicator" format="reference"/>
+        <attr name="emptyStateDrawable" format="reference" />
+        <attr name="progressColor" format="color|reference"/>
+        <attr name="emptyStateColor" format="color|reference" />
+    </declare-styleable>
+</resources>
